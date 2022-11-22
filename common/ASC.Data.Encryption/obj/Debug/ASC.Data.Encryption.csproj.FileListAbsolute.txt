@@ -1,0 +1,8 @@
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Data.Encryption.dll.config
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Data.Encryption.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Data.Encryption.pdb
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Encryption\obj\Debug\ASC.Data.Encryption.csproj.AssemblyReference.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Encryption\obj\Debug\ASC.Data.Encryption.csproj.CoreCompileInputs.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Encryption\obj\Debug\ASC.Data.Encryption.csproj.CopyComplete
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Encryption\obj\Debug\ASC.Data.Encryption.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Encryption\obj\Debug\ASC.Data.Encryption.pdb

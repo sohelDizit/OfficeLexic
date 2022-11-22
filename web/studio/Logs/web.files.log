@@ -1,0 +1,168 @@
+2022-07-19 05:35:45,987 ERROR [10] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 05:36:02,534 ERROR [10] localhost - ASC.Files - System.InvalidOperationException: File not found ---> System.IO.FileNotFoundException: File not found
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494
+   --- End of inner exception stack trace ---
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 520
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass17.<GetExecutor>b__10(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken) 
+2022-07-19 05:36:02,534 ERROR [10] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:07:58,943 ERROR [6] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:08:22,057 ERROR [6] localhost - ASC.Files - System.InvalidOperationException: File not found ---> System.IO.FileNotFoundException: File not found
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494
+   --- End of inner exception stack trace ---
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 520
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass17.<GetExecutor>b__10(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken) 
+2022-07-19 06:08:22,057 ERROR [6] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:10:06,784 ERROR [6] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:10:08,499 ERROR [6] localhost - ASC.Files - System.InvalidOperationException: File not found ---> System.IO.FileNotFoundException: File not found
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494
+   --- End of inner exception stack trace ---
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 520
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass17.<GetExecutor>b__10(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken) 
+2022-07-19 06:10:08,499 ERROR [6] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:11:32,085 ERROR [6] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:11:34,063 ERROR [6] localhost - ASC.Files - System.InvalidOperationException: File not found ---> System.IO.FileNotFoundException: File not found
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494
+   --- End of inner exception stack trace ---
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 520
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass17.<GetExecutor>b__10(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken) 
+2022-07-19 06:11:34,063 ERROR [6] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:12:51,032 ERROR [6] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:12:54,405 ERROR [6] localhost - ASC.Files - System.InvalidOperationException: File not found ---> System.IO.FileNotFoundException: File not found
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494
+   --- End of inner exception stack trace ---
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 520
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass17.<GetExecutor>b__10(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken) 
+2022-07-19 06:12:54,405 ERROR [6] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:16:50,566 ERROR [163] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.xlsx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:16:51,988 ERROR [163] localhost - ASC.Files - System.InvalidOperationException: File not found ---> System.IO.FileNotFoundException: File not found
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494
+   --- End of inner exception stack trace ---
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 520
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass17.<GetExecutor>b__10(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken) 
+2022-07-19 06:16:51,988 ERROR [163] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.xlsx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:34:34,398 ERROR [7] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:34:36,441 ERROR [7] localhost - ASC.Files - System.InvalidOperationException: File not found ---> System.IO.FileNotFoundException: File not found
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494
+   --- End of inner exception stack trace ---
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 520
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass17.<GetExecutor>b__10(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken) 
+2022-07-19 06:34:36,441 ERROR [7] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:36:45,236 ERROR [56] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 
+2022-07-19 06:36:47,745 ERROR [56] localhost - ASC.Files - System.InvalidOperationException: File not found ---> System.IO.FileNotFoundException: File not found
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494
+   --- End of inner exception stack trace ---
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 520
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass17.<GetExecutor>b__10(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken) 
+2022-07-19 06:36:47,745 ERROR [56] localhost - ASC.Files - System.IO.FileNotFoundException: File not found
+File name: 'E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\DocStore\new\en-US\new.docx'
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path, Boolean withDecription) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 96
+   at ASC.Data.Storage.DiscStorage.DiscDataStore.GetReadStream(String domain, String path) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Data.Storage\DiscStorage\DiscDataStore.cs:line 84
+   at ASC.Web.Files.Services.WCFService.FileStorageServiceController.CreateNewFile(String parentId, String title, String templateId, Boolean enableExternalExt) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\Products\Files\Services\WCFService\FileStorageServiceController.cs:line 494 

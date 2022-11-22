@@ -1,0 +1,11 @@
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\callback.htm
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Mail.dll.config
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Mail.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Mail.pdb
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Mail\ASC.Mail\obj\Debug\ASC.Mail.csproj.AssemblyReference.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Mail\ASC.Mail\obj\Debug\ASC.Mail.Resources.MailCoreResource.resources
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Mail\ASC.Mail\obj\Debug\ASC.Mail.csproj.GenerateResource.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Mail\ASC.Mail\obj\Debug\ASC.Mail.csproj.CoreCompileInputs.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Mail\ASC.Mail\obj\Debug\ASC.Mail.csproj.CopyComplete
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Mail\ASC.Mail\obj\Debug\ASC.Mail.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Mail\ASC.Mail\obj\Debug\ASC.Mail.pdb

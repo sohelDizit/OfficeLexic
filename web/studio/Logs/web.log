@@ -1,0 +1,15 @@
+2022-09-20 09:58:47,890 ERROR [14] localhost - ASC - Service Error: Unable to connect to the remote server,    at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at ASC.Core.Notify.Signalr.SignalrServiceClient.MakeRequest(String method, Object data) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Core.Common\Notify\Signalr\SignalrServiceClient.cs:line 321
+   at ASC.Core.Notify.Signalr.SignalrServiceClient.FilesChangeEditors(Int32 tenantId, String fileId, Boolean finish) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Core.Common\Notify\Signalr\SignalrServiceClient.cs:line 264, No connection could be made because the target machine actively refused it 127.0.0.1:9899 
+2022-09-20 09:59:43,196 ERROR [62] localhost - ASC - Service Error: Unable to connect to the remote server,    at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at ASC.Core.Notify.Signalr.SignalrServiceClient.MakeRequest(String method, Object data) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Core.Common\Notify\Signalr\SignalrServiceClient.cs:line 321
+   at ASC.Core.Notify.Signalr.SignalrServiceClient.FilesChangeEditors(Int32 tenantId, String fileId, Boolean finish) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Core.Common\Notify\Signalr\SignalrServiceClient.cs:line 264, No connection could be made because the target machine actively refused it 127.0.0.1:9899 
+2022-09-20 10:08:28,696 ERROR [157] localhost - ASC - Service Error: Unable to connect to the remote server,    at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at ASC.Core.Notify.Signalr.SignalrServiceClient.MakeRequest(String method, Object data) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Core.Common\Notify\Signalr\SignalrServiceClient.cs:line 321
+   at ASC.Core.Notify.Signalr.SignalrServiceClient.FilesChangeEditors(Int32 tenantId, String fileId, Boolean finish) in E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\common\ASC.Core.Common\Notify\Signalr\SignalrServiceClient.cs:line 264, No connection could be made because the target machine actively refused it 127.0.0.1:9899 

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ASC.Api.Sample</name>
+    </assembly>
+    <members>
+        <member name="T:ASC.Api.Sample.SampleApi">
+            <summary>
+            Sample CRUD Api
+            </summary>
+        </member>
+        <member name="P:ASC.Api.Sample.SampleApi.Name">
+            <summary>
+            ASC.Api.Interfaces.IApiEntryPoint.Name
+            </summary>
+        </member>
+        <member name="M:ASC.Api.Sample.SampleApi.Create(System.String)">
+            <summary>
+            Create item
+            </summary>
+            <param name="value">item value</param>
+            <returns>SampleClass item</returns>
+        </member>
+        <member name="M:ASC.Api.Sample.SampleApi.Read(System.Int32)">
+            <summary>
+            Read item by id
+            </summary>
+            <param name="id">item id</param>
+            <returns>SampleClass item</returns>
+        </member>
+        <member name="M:ASC.Api.Sample.SampleApi.Read">
+            <summary>
+            Read all items
+            </summary>
+            <returns>SampleClass items list</returns>
+        </member>
+        <member name="M:ASC.Api.Sample.SampleApi.Update(System.Int32,System.String)">
+            <summary>
+            Update item
+            </summary>
+            <param name="id">item id</param>
+            <param name="value">new item value</param>
+        </member>
+        <member name="M:ASC.Api.Sample.SampleApi.Delete(System.Int32)">
+            <summary>
+            Update item by id
+            </summary>
+            <param name="id">item id</param>
+        </member>
+    </members>
+</doc>

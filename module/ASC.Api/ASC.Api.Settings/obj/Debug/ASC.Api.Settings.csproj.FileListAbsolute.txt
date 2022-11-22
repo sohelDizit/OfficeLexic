@@ -1,0 +1,10 @@
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\callback.htm
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.Settings.dll.config
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.Settings.XML
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.Settings.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.Settings.pdb
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Settings\obj\Debug\ASC.Api.Settings.csproj.AssemblyReference.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Settings\obj\Debug\ASC.Api.Settings.csproj.CoreCompileInputs.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Settings\obj\Debug\ASC.Api.Settings.csproj.CopyComplete
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Settings\obj\Debug\ASC.Api.Settings.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Settings\obj\Debug\ASC.Api.Settings.pdb

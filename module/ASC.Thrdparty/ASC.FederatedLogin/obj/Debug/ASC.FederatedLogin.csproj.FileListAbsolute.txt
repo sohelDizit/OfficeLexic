@@ -1,0 +1,9 @@
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\callback.htm
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.FederatedLogin.dll.config
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.FederatedLogin.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.FederatedLogin.pdb
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Thrdparty\ASC.FederatedLogin\obj\Debug\ASC.FederatedLogin.csproj.AssemblyReference.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Thrdparty\ASC.FederatedLogin\obj\Debug\ASC.FederatedLogin.csproj.CoreCompileInputs.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Thrdparty\ASC.FederatedLogin\obj\Debug\ASC.FederatedLogin.csproj.CopyComplete
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Thrdparty\ASC.FederatedLogin\obj\Debug\ASC.FederatedLogin.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Thrdparty\ASC.FederatedLogin\obj\Debug\ASC.FederatedLogin.pdb

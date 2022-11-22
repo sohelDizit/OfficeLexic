@@ -1,0 +1,662 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Notify.Textile\\ASC.Notify.Textile.csproj": {}
+  },
+  "projects": {
+    "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj",
+        "projectName": "ASC.Common",
+        "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj",
+        "packagesPath": "C:\\Users\\Dizit\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\NuGet.Config",
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\NuGet.Config",
+          "C:\\Users\\Dizit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "ARSoft.Tools.Net": {
+              "target": "Package",
+              "version": "[2.2.9, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.29, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.11, )"
+            },
+            "NVelocity": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.88, )"
+            },
+            "StackExchange.Redis.Extensions.Core": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "StackExchange.Redis.Extensions.LegacyConfiguration": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "StackExchange.Redis.Extensions.Newtonsoft": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.9, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj",
+        "projectName": "ASC.Core.Common",
+        "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj",
+        "packagesPath": "C:\\Users\\Dizit\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\NuGet.Config",
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\NuGet.Config",
+          "C:\\Users\\Dizit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "AWSSDK.CloudFront": {
+              "target": "Package",
+              "version": "[3.7.3.20, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.1.29, )"
+            },
+            "AWSSDK.SimpleEmail": {
+              "target": "Package",
+              "version": "[3.7.0.57, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Security.Cryptography.X509Certificates": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Data.Encryption\\ASC.Data.Encryption.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Data.Encryption\\ASC.Data.Encryption.csproj",
+        "projectName": "ASC.Data.Encryption",
+        "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Data.Encryption\\ASC.Data.Encryption.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Data.Storage\\ASC.Data.Storage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Data.Storage\\ASC.Data.Storage.csproj",
+        "projectName": "ASC.Data.Storage",
+        "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Data.Storage\\ASC.Data.Storage.csproj",
+        "packagesPath": "C:\\Users\\Dizit\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Data.Storage\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\NuGet.Config",
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\NuGet.Config",
+          "C:\\Users\\Dizit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Data.Encryption\\ASC.Data.Encryption.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Data.Encryption\\ASC.Data.Encryption.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Google.Api.Gax.Rest": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Google.Apis.Storage.v1": {
+              "target": "Package",
+              "version": "[1.54.0.2234, )"
+            },
+            "Google.Cloud.Storage.V1": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Microsoft.AspNet.Web.Optimization": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            },
+            "Rackspace": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "SelectelSharp": {
+              "target": "Package",
+              "version": "[0.8.5, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Notify.Textile\\ASC.Notify.Textile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Notify.Textile\\ASC.Notify.Textile.csproj",
+        "projectName": "ASC.Notify.Textile",
+        "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Notify.Textile\\ASC.Notify.Textile.csproj",
+        "packagesPath": "C:\\Users\\Dizit\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Notify.Textile\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\NuGet.Config",
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\NuGet.Config",
+          "C:\\Users\\Dizit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\web\\core\\ASC.Web.Core\\ASC.Web.Core.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\web\\core\\ASC.Web.Core\\ASC.Web.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Textile": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.MessagingSystem\\ASC.MessagingSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.MessagingSystem\\ASC.MessagingSystem.csproj",
+        "projectName": "ASC.MessagingSystem",
+        "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.MessagingSystem\\ASC.MessagingSystem.csproj",
+        "packagesPath": "C:\\Users\\Dizit\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.MessagingSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\NuGet.Config",
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\NuGet.Config",
+          "C:\\Users\\Dizit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "UAParser": {
+              "target": "Package",
+              "version": "[3.1.47, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.Thrdparty\\ASC.FederatedLogin\\ASC.FederatedLogin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.Thrdparty\\ASC.FederatedLogin\\ASC.FederatedLogin.csproj",
+        "projectName": "ASC.FederatedLogin",
+        "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.Thrdparty\\ASC.FederatedLogin\\ASC.FederatedLogin.csproj",
+        "packagesPath": "C:\\Users\\Dizit\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.Thrdparty\\ASC.FederatedLogin\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\NuGet.Config",
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\NuGet.Config",
+          "C:\\Users\\Dizit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "JWT": {
+              "target": "Package",
+              "version": "[8.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            },
+            "TweetinviAPI": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.VoipService\\ASC.VoipService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.VoipService\\ASC.VoipService.csproj",
+        "projectName": "ASC.VoipService",
+        "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.VoipService\\ASC.VoipService.csproj",
+        "packagesPath": "C:\\Users\\Dizit\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.VoipService\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\NuGet.Config",
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\NuGet.Config",
+          "C:\\Users\\Dizit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.69.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\web\\core\\ASC.Web.Core\\ASC.Web.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\web\\core\\ASC.Web.Core\\ASC.Web.Core.csproj",
+        "projectName": "ASC.Web.Core",
+        "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\web\\core\\ASC.Web.Core\\ASC.Web.Core.csproj",
+        "packagesPath": "C:\\Users\\Dizit\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\web\\core\\ASC.Web.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\NuGet.Config",
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\NuGet.Config",
+          "C:\\Users\\Dizit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Common\\ASC.Common.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Core.Common\\ASC.Core.Common.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Data.Storage\\ASC.Data.Storage.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\common\\ASC.Data.Storage\\ASC.Data.Storage.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.MessagingSystem\\ASC.MessagingSystem.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.MessagingSystem\\ASC.MessagingSystem.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.Thrdparty\\ASC.FederatedLogin\\ASC.FederatedLogin.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.Thrdparty\\ASC.FederatedLogin\\ASC.FederatedLogin.csproj"
+              },
+              "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.VoipService\\ASC.VoipService.csproj": {
+                "projectPath": "E:\\Project\\CommunityServer-12.0.0\\CommunityServer-12.0.0\\module\\ASC.VoipService\\ASC.VoipService.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.1.29, )"
+            },
+            "AjaxPro.2": {
+              "target": "Package",
+              "version": "[21.12.22.2, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.6.0.1, )"
+            },
+            "JWT": {
+              "target": "Package",
+              "version": "[8.2.3, )"
+            },
+            "NUglify": {
+              "target": "Package",
+              "version": "[1.16.4, )"
+            },
+            "SelectelSharp": {
+              "target": "Package",
+              "version": "[0.8.5, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.69.0, )"
+            },
+            "dotless": {
+              "target": "Package",
+              "version": "[1.6.7, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

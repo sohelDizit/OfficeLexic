@@ -1,0 +1,10 @@
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\callback.htm
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.CRM.dll.config
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.CRM.XML
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.CRM.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.CRM.pdb
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.CRM\obj\Debug\ASC.Api.CRM.csproj.AssemblyReference.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.CRM\obj\Debug\ASC.Api.CRM.csproj.CoreCompileInputs.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.CRM\obj\Debug\ASC.Api.CRM.csproj.CopyComplete
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.CRM\obj\Debug\ASC.Api.CRM.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.CRM\obj\Debug\ASC.Api.CRM.pdb

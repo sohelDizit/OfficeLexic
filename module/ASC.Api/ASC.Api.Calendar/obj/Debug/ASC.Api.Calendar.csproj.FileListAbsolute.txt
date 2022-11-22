@@ -1,0 +1,14 @@
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\callback.htm
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.Calendar.dll.config
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.Calendar.XML
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.Calendar.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.Calendar.pdb
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Calendar\obj\Debug\ASC.Api.Calendar.csproj.AssemblyReference.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Calendar\obj\Debug\ASC.Api.Calendar.Resources.CalendarApiResource.resources
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Calendar\obj\Debug\ASC.Api.Calendar.Notification.CalendarPatternResource.resources
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Calendar\obj\Debug\ASC.Api.Calendar.Notification.CalendarPatterns.resources
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Calendar\obj\Debug\ASC.Api.Calendar.csproj.GenerateResource.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Calendar\obj\Debug\ASC.Api.Calendar.csproj.CoreCompileInputs.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Calendar\obj\Debug\ASC.Api.Calendar.csproj.CopyComplete
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Calendar\obj\Debug\ASC.Api.Calendar.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Calendar\obj\Debug\ASC.Api.Calendar.pdb

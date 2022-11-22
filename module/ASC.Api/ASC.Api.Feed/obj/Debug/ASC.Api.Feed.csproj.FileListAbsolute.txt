@@ -1,0 +1,10 @@
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\callback.htm
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.Feed.dll.config
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.Feed.XML
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.Feed.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\web\studio\ASC.Web.Studio\bin\ASC.Api.Feed.pdb
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Feed\obj\Debug\ASC.Api.Feed.csproj.AssemblyReference.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Feed\obj\Debug\ASC.Api.Feed.csproj.CoreCompileInputs.cache
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Feed\obj\Debug\ASC.Api.Feed.csproj.CopyComplete
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Feed\obj\Debug\ASC.Api.Feed.dll
+E:\Project\CommunityServer-12.0.0\CommunityServer-12.0.0\module\ASC.Api\ASC.Api.Feed\obj\Debug\ASC.Api.Feed.pdb
